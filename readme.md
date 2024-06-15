@@ -116,4 +116,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Website Design Inspiration | I use this tutorial for designing websites.| https://www.youtube.com/watch?v=IXucQAEkIMo&t=1165s&ab_channel=TahmidAhmed |
+| Boxicon & Remixicon | Button animation enhances buttons by making them more interactive and visually appealing. For example, a button may change color or size when hovered over or clicked. | https://boxicons.com/ https://remixicon.com/ |
+| Google Fonts  | Google Fonts provides a variety of free, high-quality fonts for websites. It allows easy integration of custom fonts to enhance typography across different platforms. | https://fonts.google.com/ |
+| Button animation | Sample purpose would be here like this and this is the example of what it is. | https://dev.to/webdeasy/top-20-css-buttons-animations-f41 |
