@@ -322,6 +322,7 @@ body{
     justify-content: space-between;
     padding: 1px 9%;
     background: rgb(78, 101, 165);
+    overflow: hidden;
 }
 .Design-one-Animated img {
     transition: transform 0.3s ease-in-out;
