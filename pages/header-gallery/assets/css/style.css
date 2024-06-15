@@ -528,7 +528,12 @@ body{
     list-style: none;
 }
 
-
+.Design-three-Animated img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
 .Design-three-Animated img:hover {
     animation: shake 0.5s ease-in-out forwards;
 }
@@ -660,12 +665,28 @@ body{
 }
 
 
+.Design-five-Animated {
+    position: static;
+    width: 220px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    background-color: #f45b2c;
+    padding: 10px;
+}
+
 .Design-five-Animated .navlist5 {
     list-style: none;
     margin-top: 20px;
     overflow-y: auto;
     scrollbar-width: none;
     flex: 1;
+}
+
+.Design-five-Animated img:hover {
+    animation: shake 0.5s ease-in-out forwards;
 }
 
 .navlist5-Animated li {
@@ -678,24 +699,38 @@ body{
 .navlist5-Animated li a {
     padding: 10px;
     color: #000;
-    display: block; 
+    display: block;
     font-weight: 500;
     white-space: nowrap;
     text-decoration: none;
 }
-
-
 .navlist5-Animated i {
-    margin-top: 100px;
-    font-size: 40px; 
+    font-size: 40px;
     color: white;
     cursor: pointer;
+    transition: font-size 0.3s ease;
+    margin-top: 100px;
 }
 
-.github-Animated i{
-    padding-top:40vh;
-    font-size: 40px; 
+.navlist5-Animated li:hover i {
+    font-size: 44px;
 }
+
+.navlist5-Animated li:hover i:hover {
+    font-size: 40px;
+}
+
+.github-Animated i {
+    font-size: 40px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+    margin-top: 40vh;
+}
+
+.github-Animated i:hover {
+    font-size: 44px;
+}
+
 
 
 

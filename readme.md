@@ -59,19 +59,16 @@
 <!-- The following are just sample -->
 This project illustrates HTML and CSS coding across diverse header and footer designs, coupled with animations. Its purpose is to offer practical coding experience and tangible results.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
+- Header Animation
+  - Hover Effect
+  - Active Effect
+  - Multi Layer Domino Effect
+  - Not Effect
+- Footer Animation
+  - 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -120,3 +117,4 @@ WD-ProjectName
 | Boxicon & Remixicon | Button animation enhances buttons by making them more interactive and visually appealing. For example, a button may change color or size when hovered over or clicked. | https://boxicons.com/ https://remixicon.com/ |
 | Google Fonts  | Google Fonts provides a variety of free, high-quality fonts for websites. It allows easy integration of custom fonts to enhance typography across different platforms. | https://fonts.google.com/ |
 | Button animation | Sample purpose would be here like this and this is the example of what it is. | https://dev.to/webdeasy/top-20-css-buttons-animations-f41 |
+|CSS Hover Effect | Design Inspiration for the header | https://www.proglobalbusinesssolutions.com/css-hover-effects/
