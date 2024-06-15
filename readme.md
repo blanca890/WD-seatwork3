@@ -68,7 +68,9 @@ This project illustrates HTML and CSS coding across diverse header and footer de
   - Multi Layer Domino Effect
   - Not Effect
 - Footer Animation
-  - 
+  -Hover Effect
+  - Active Effect
+  - Multi Layer Domino Effect
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
