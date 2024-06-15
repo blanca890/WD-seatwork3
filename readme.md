@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/blanca890/WD-seatwork3">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="../WD-seatwork3/assets/img/GBlogo.jpg" alt="GB" width="130" height="100">
+    <img src="../WD-seatwork3/assets/img/LOGOGB.jpg" alt="GB" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork #3 Header and Footers</h3>
