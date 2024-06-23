@@ -61,7 +61,11 @@ header{
     background-size: cover;
     background-position: center;
     padding: 0 19%;
+    overflow: hidden;
+    z-index: 0;
 }
+
+
 
 .hero::before {
     content: "";
