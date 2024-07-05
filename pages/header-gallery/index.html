@@ -38,14 +38,15 @@
 <!--Design 1 static-->
 
     <header class="Design-one">
-           <img src="../header-gallery/assets/img/logototoro2.png" alt="Logo1">
+           
             <nav>
                 <ul class="navlist1">
+                    <img src="../header-gallery/assets/img/logototoro2.png" alt="Logo1">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <div class="dropdown">
-                        <button class="dropbtn"><i class='bx bxs-down-arrow'></i>Dropdown</button>
+                        <button class="dropbtn"></i>Dropdown <i class='bx bxs-down-arrow'></i></button>
                         <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -56,7 +57,6 @@
             </nav>
         <div class="button-container">
                 <li><button class="button-one">Button1</button></li>
-                <li><button class="button-one">Button2</button></li>
         </div>
     </header>
 
@@ -74,11 +74,7 @@
         <img src="../header-gallery/assets/img/Adidas2.png" alt="Logo2">
 
         <form class="Form-design">
-            <div class="Form1">
-              
-                <input type="text" id="search" class="search-input" placeholder="Search">
-                <button type="submit" class="search-button"><i class='bx bx-search' style='color:#ffffff' ></i>Submit</button>
-            </div>
+
         </form>
         <nav>
             <ul class="navlist2">
@@ -86,13 +82,15 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#"> <i class='bx bx-cart' style='color:#ffffff' ></i></a></li>
             </ul>
 
-        
-
-
         </nav>
+
+        <div class="Form1">
+              
+            <input type="text" id="search" class="search-input" placeholder="Search">
+            <button type="submit" class="search-button"><i class='bx bx-search' style='color:#ffffff' ></i>Submit</button>
+        </div>
     </header>
 
 <!--Design 3 static-->
@@ -126,7 +124,7 @@
 
     <section class="Fourth-section">
         <h3>Design 4</h3>
-        <p>Create a logo and four navigation icons.</p>
+        <p>Create a logo and four navigation  and button.</p>
     </section>
 
 
@@ -135,59 +133,90 @@
             <ul class="navlist4">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <img src="./assets/img/Adidas2.png">
-                <li><a href="#">Shop</a></li>
+                <li class="dropdown">
+                    <a href="#">Shop<i class="ri-store-line"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+            </div></li>
                 <li><a href="#">Contact Us</a></li>
 
             </ul>
         </nav>
+        <div class="Logo">
+            <img src="./assets/img/Adidas2.png">
+        </div>
+
+        <div class="user-icon">
+    <a href="#"><i class="ri-user-line" style="color: white;"></i></a>
+        </div>
+
     </header>
 
 <!--Design 5 static-->
 
 <section class="Fifth-section">
     <h3>Design 5</h3>
-    <p>Create a logo along with four icons.</p>
+    <p>Create a logo along with four icons and form.</p>
 
 </section>
 
-<header class="Design-five">
-    <div class="logo">
-        <img src="./assets/img/Shopee-Logo-1.png" alt="logo">
-    </div>
-    <ul class="navlist5">
-        <li><a href="#"><i class='bx bx-home-alt' style='color:#f1f0f0'  ></i></a></li>
-        <li><a href="#"><i class='bx bx-shopping-bag' style='color:#f1f0f0' ></i></a></li>
-        <li> <a href="#"><i class='bx bx-cart' style='color:#f1f0f0' ></i></a></li>
-    </ul>
-    
-    <div class="github">
-        <li><a href="#"><i class='bx bxl-github' style='color:#f1f0f0' ></i></a></li>
-    </div>
+<header>
+    <nav class="Design-five">
+        <div class="logo">
+            <li><i class="ri-twitter-fill"></i></li>
+        </div>
+        <form class="form-5">
+            <input type="text" id="search" class="search-input" placeholder="Search">
+            <button type="submit" class="search-button"><i class='bx bx-search' style='color:#ffffff' ></i>Submit</button>
+        </form>
+        <ul class="navlist5-container">
+            <li><a href="#"><i class="ri-home-3-line"></i></i></a></li>
+            <li><a href="#"><i class="ri-chat-1-line"></i></i></a></li>
+            <li> <a href="#"><i class="ri-find-replace-line"></i></a></li>
+            <li> <a href="#"><i class="ri-heart-3-line"></i></i></a></li>
+        </ul>
+
 </header>
 
 
 <!--Animated -->
 
+<!--Design 1 Animated -->
 <div class="Animated"><h1>Animated Header Designs</h1> </div>
 
 <section class="First-section">
 <h3>Design 1 & Hover Effect</h3>
 <p>Composition of Logo & 5 Navigations</p>
 </section>
-
-<header class="Design-one-Animated">
-   <img src="../header-gallery/assets/img/logototoro2.png" alt="Logo1">
+<header class="Design-one-animated">
     <nav>
-        <ul class="navlist1-Animated">
+        <ul class="navlist1-animated">
+            <li><img src="../header-gallery/assets/img/logototoro2.png" alt="Logo1-animated" class="logo-animated-1"></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="dropdown-animated">
+                <button class="dropbtn-animated"></i>Dropdown<i class='bx bxs-down-arrow'></i></button>
+                <div class="dropdown-content-animated">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
         </ul>
     </nav>
-</div>
+    <div class="button-container-animated">
+        <button class="button-one-animated">Button1</button>
+    </div>
 </header>
+
+
+<!--Design 2 Animated -->
+
 <section class="Second-section">
 <h3>Design 2 & Hover Effect & Active Effect</h3>
 <p>Composition of Logo, 4 Navigations & Icon </p>
@@ -198,17 +227,25 @@
         <img src="../header-gallery/assets/img/Adidas2-only.png" alt="Logo2" class="logo-img">
         <span class="logo-text">ADIDAS</span>
     </div>
+
     <nav>
         <ul class="navlist2-Animated">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
-            <div class="cart">
-                <a href="#"><i class='bx bx-cart' style='color:#ffffff' ></i></a>
-            </div>
         </ul>
     </nav>
+
+    <form>
+        <div class="Form-2-animated">
+            <form>
+                <input type="text" id="search" class="search-input-2" placeholder="Search">
+                <button type="submit" class="search-button-2"><i class='bx bx-search' style='color:#ffffff' ></i>Submit</button>
+            </form>
+
+        </div>
+    </form>
 </header>
 
 <section class="Third-section">
@@ -227,48 +264,73 @@
             <li><a href="#">Shop</a></li>
         </ul>
     </nav>
-    <div class="before-element"></div> <!-- Added before element -->
+    <div class="before-element"></div> 
     <div class="cta"><a href="#" class="cta-button">Buy now</a></div>
 </header>
 
+
 <section class="Fourth-section">
-    <h3>Design 4 & Active & Not Effect & Before</h3>
-    <p>Composition of Logo & 4 Navigations. Added a fading effect</p>
+    <h3>Design 4</h3>
+    <p>Create a logo and four navigation  and button.</p>
 </section>
 
-<header class="Design-four-Animated">
-<nav>
-    <ul class="navlist4-Animated">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <img src="./assets/img/Adidas2.png" alt="Logo4">
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </ul>
-</nav>
+
+<header class="Design-four-animated">
+    <nav>
+        <ul class="navlist4-animated">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown-animated">
+                <a href="#">Shop<i class="ri-store-line"></i></a>
+                <div class="dropdown-content-animated">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </div></li>
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <div class="Logo-animated">
+        <img src="./assets/img/Adidas2.png">
+    </div>
+
+    <div class="user-icon-animated">
+<a href="#"><i class="ri-user-line" style="color: white;"></i></a>
+    </div>
+
 </header>
+
+
+
+
 
 <section class="Fifth-section">
-<h3>Design 5</h3>
-<p>Create a logo along with four icons. </p>
-
+    <h3>Design 5</h3>
+    <p>Create a logo along with four icons. </p>
 </section>
 
-<header class="Design-five-Animated">
-<div class="logo">
-<img src="./assets/img/Shopee-Logo-1.png" alt="Logo5">
-</div>
-<ul class="navlist5-Animated">
-<li><a href="#"><i class='bx bx-home-alt' style='color:#f1f0f0'  ></i></a></li>
-<li><a href="#"><i class='bx bx-shopping-bag' style='color:#f1f0f0' ></i></a></li>
-<li> <a href="#"><i class='bx bx-cart' style='color:#f1f0f0' ></i></a></li>
-</ul>
 
-<ul class="github-Animated">
-<li><a href="#"><i class='bx bxl-github' style='color:#f1f0f0' ></i></a></li>
-</ul>
+
+<header>
+    <nav class="Design-five-animated">
+        <div class="logo-animated">
+            <li><i class="ri-twitter-fill"></i></li>
+        </div>
+        <form class="form-5-animated">
+            <input type="text" id="search" class="search-input" placeholder="Search">
+            <button type="submit" class="search-button-animated"><i class='bx bx-search' style='color:#ffffff' ></i>Submit</button>
+        </form>
+        <ul class="navlist5-container-animated">
+            <li><a href="#"><i class="ri-home-3-line"></i></i></a></li>
+            <li><a href="#"><i class="ri-chat-1-line"></i></i></a></li>
+            <li> <a href="#"><i class="ri-find-replace-line"></i></a></li>
+            <li> <a href="#"><i class="ri-heart-3-line"></i></i></a></li>
+        </ul>
+
 </header>
-
 
 
     </body>

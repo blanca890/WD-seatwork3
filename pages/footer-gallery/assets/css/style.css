@@ -50,137 +50,284 @@ body {
 
 .Design-one {
     width: 100%;
-    position: static;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
     background-color: #000000;
-    padding: 2rem;
-    justify-content: space-between;
-    align-items: center;
+    padding: 2rem 0;
     text-align: center;
-}
-
-.Design-one.footer-logo {
-    flex: 1;
-    text-align: left;
-}
-
-.Design-one nav {
-    flex: 1;
-    text-align: right;
-}
-
-.Design-onep{
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
+    margin-top: 3vh;
 }
 
-.Design-one ul {
+.footer-content-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.footer-logo img {
+    max-width: 100px; 
+}
+
+.menu {
     display: flex;
     gap: 1rem;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-}
-
-.Design-one ul li {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.Design-one ul li a {
+.menu li a {
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size:  30px
 }
 
-.Design-one ul li a:hover {
-    color: #ffffff;
+.menu li a:hover {
+    color: #cccccc;
 }
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 24px;
+
+}
+
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 3px solid #ffffff;
+    margin: 2rem 0;
+}
+
+.footer-copyright {
+    font-size: 0.875rem; /* Adjust as needed */
+}
+
+
 
 .Design-two {
     width: 100%;
-    position: static;
+    background-color: #e0e0e0;
+    padding: 2rem 0;
+    color: #333;
+    margin-top: 3vh;
+
+}
+
+.footer-content-two {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 2rem;
+
+}
+
+.footer-logo-two {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.text-content h3 {
+    margin: 1rem 0;
+}
+
+.design-2-form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    background-color: #e0e0e0;
-    padding: 2rem;
-    align-items: center;
-    text-align: center;
-}
-
-.Design-two .footer-logo {
-    text-align: left;
-}
-
-.Design-two .navlist2 {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
     margin-top: 1rem;
 }
 
-.Design-two.navlist2 li {
-    list-style-type: none;
+.input-container {
+    display:block;
+    flex-direction: column;
+    gap: 0.5rem;
+
 }
 
-.Design-two.navlist2 li a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.input-container input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 300px;
 }
 
-.Design-two .navlist2 li a:hover {
-    color: #555;
+.input-container button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.Design-two.footer-info {
+.input-container button:hover {
+    background-color: #555;
+}
+
+.input-container p {
+    font-size: 0.875rem;
     color: #666;
 }
 
-.Design-two.social-icons {
-    margin-top: 1rem;
+.Column-1, .Column-2, .Column-3 {
+    flex: 0 15 200px;
 }
 
-.Design-two .social-icons a {
+nav h3 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 0.5rem;
+}
+
+nav ul li a {
     color: #333;
     text-decoration: none;
-    margin: 0 0.5rem;
     transition: color 0.3s ease;
 }
 
-.Design-two .social-icons a:hover {
-    color: #555;
+nav ul li a:hover {
+    color: #666;
 }
 
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2rem 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+}
 .Design-three {
     width: 100%;
-    position: static;
+    background-color: #e0e0e0;
+    padding: 2rem 0;
+    color: #333;
+    margin-top: 3vh;
+}
+
+.footer-content-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.footer-logo-three {
+    flex: 1;
+    text-align: left;
+}
+
+.text-content h3 {
+    margin: 1rem 0;
+}
+
+.columns-container-three {
+    display: flex;
+    gap: 2rem; /* Adjust the gap between columns */
+}
+
+.column-three {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.column-three h3 {
+    margin-bottom: 1rem;
+}
+
+.column-three ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column-three ul li {
+    margin-bottom: 0.5rem;
+}
+
+.column-three ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.column-three ul li a:hover {
+    color: #666;
+}
+
+.subscribe-form-three {
+    flex: 1;
+    margin-left: 2rem; /* Adjust the margin to separate from columns */
+}
+
+.design-2-form-three {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: #bddf28;
-    padding: 2rem;
-    align-items: center;
+}
+
+.input-container-three {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-container-three input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.input-container-three button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-container-three button:hover {
+    background-color: #555;
+}
+
+.input-container-three p {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2rem 0;
+}
+
+.footer-copyright {
     text-align: center;
+    font-size: 0.875rem;
+    color: #666;
 }
 
-.Design-three .footer-logo {
-    text-align: left;
-}
-
-.Design-three .contact-info {
-    text-align: left;
-}
-
-.Design-three .footer-disclaimer {
-    color: #888;
-    font-size: 0.9rem;
-}
 
 .Design-four{
     width: 100%;
@@ -332,13 +479,13 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.Design-one-Animated .footer-logo {
+.Design-one-Animated .footer-logo-one {
     flex: 1;
     text-align: left;
     transition: transform 0.3s ease;
 }
 
-.Design-one-Animated:hover .footer-logo {
+.Design-one-Animated:hover .footer-logo-one {
     transform: scale(1.1);
 }
 

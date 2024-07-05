@@ -13,7 +13,7 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 190vh;
     width: 100vw;
     overflow-y: auto; 
     overflow-x: hidden;
@@ -108,16 +108,16 @@ body{
 
 
 .Design-one {
+    display: flex;
     position: static;
     right: 0;
     top: 220px;
     height: 100px;
     z-index: 1000;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1px 9%;
+    padding: 1px 2%;
     background: rgb(78, 101, 165);
     overflow: hidden;
 }
@@ -134,7 +134,6 @@ body{
 
 .navlist1 a{
     color: white;
-    margin-left: 60px;
     font-size: 15px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
@@ -162,9 +161,11 @@ body{
 
 }
 
-.dropdown{
-    float: left;
-    overflow: hidden;
+.dropdown i{
+    font-size: 15px; 
+    color: white;
+    padding: 15px;
+    cursor: pointer;
 }
 .dropdown .dropbtn{
     font-size: 15px;
@@ -172,7 +173,6 @@ body{
     border: none;
     outline: none;
     color: white;
-    padding: 10px 20px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -185,7 +185,7 @@ body{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(248, 247, 247, 0.2);
     z-index: 1;
 }
 
@@ -195,7 +195,7 @@ body{
 
 .dropdown-content a{
     float: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     text-align: center;
@@ -236,7 +236,7 @@ body{
     border: none;
     outline: none;
     font-size: 15px;
-    width: 50vh;
+    width: 30vh;
 }
 
 .search-button{
@@ -262,7 +262,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+
     margin: 0;
     padding: 0;
     list-style: none;
@@ -328,27 +328,27 @@ body{
 
 
 .Design-four {
+    display: flex;
+    align-items: center;
+    align-content: center;
     background-color: #333;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 20px;
+    
 }
 
 .Design-four nav {
-    width: 100%;
+    flex: 1;
 }
 
-.navlist4 {
-    list-style: none;
+.Design-four .navlist4{
+    display: flex;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navlist4 li {
-    display: flex;
-    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10vh;
+    
 }
 
 .navlist4 li a {
@@ -357,129 +357,239 @@ body{
     padding: 10px 20px;
     display: block;
     font-size: 18px;
+    
 }
 
-.navlist4 li.logo {
-    margin: 0 0px;
-}
-
-.Design-five {
-    position: static;
-    width: 220px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    float: left; 
-    background-color: #f45b2c;
-    padding: 10px;
+.Design-four .Logo{
+    flex-grow: 1;
+    display:flex;
+    justify-content: space-between;
 }
 
 
-.Design-five .navlist5 {
-    list-style: none;
-    margin-top: 20px;
-    overflow-y: auto;
-    scrollbar-width: none;
-    flex: 1;
-}
 
-.navlist5 li {
-    display: flex;
-    border-radius: 4px;
-    align-items: center;
-    margin-bottom: 8px;
-}
+.user-icon{
 
-.navlist5 li a {
-    padding: 10px;
-    color: #000;
-    display: block; 
-    font-weight: 500;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-
-.navlist5 i {
-    margin-top: 100px;
-    font-size: 40px; 
     color: white;
     cursor: pointer;
+    justify-content: flex-end;
 }
 
-.github i{
-    font-size: 40px; 
+.user-icon i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10vh;
+    
 }
 
 
-/** Animated Design **/
 
-.Design-one-Animated {
-    position: static;
-    right: 0;
-    top: 220px;
-    height: 100px;
-    z-index: 1000;
-    width: 100%;
+.Design-five{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1px 9%;
-    background: rgb(78, 101, 165);
-    overflow: hidden;
-}
-.Design-one-Animated img {
-    transition: transform 0.3s ease-in-out;
+    position: static;
+    width: auto;
+    height: 10vh;
+    background-color: #f2f6f7;
+    justify-content: space-evenly;
+    
 }
 
-.Design-one-Animated img:hover {
-    animation: growShrink 2s ease-in-out forwards; 
-}
-
-@keyframes growShrink {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2); 
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-
-.navlist1-Animated {
+.form-5{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
-.navlist1-Animated a {
+.navlist5-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: left;
+    flex-direction:row;
+}
+
+.navlist5-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.navlist5-container li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+
+.navlist5-container i{
+    font-size: 40px;
+    color: #000;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo i{
+    font-size: 100px;
+    color: #000;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+
+
+
+/** Animated Design **/
+
+/**Design 1 Animated **/
+
+.Design-one-animated {
+    display: flex;
+    position: static;
+    top: 220px; /* Adjust as needed */
+    height: 100px;
+    z-index: 1000;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 2%;
+    background: rgb(78, 101, 165);
+    overflow: hidden;
+}
+
+.logo-animated-1 {
+ 
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-animated-1:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.navlist1-animated {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlist1-animated a {
+    position: relative;
     color: white;
     font-size: 15px;
     font-weight: 600;
-    text-decoration: none; 
-    position: relative; 
-    transition: color 0.3s ease, background-color 0.3s ease; 
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
-.navlist1-Animated a::before {
-    content: ''; 
-    position: absolute;
-    bottom: -4px; 
-    left: 0;
+.navlist1-animated a::after {
+    content: '';
+    display: block;
     width: 0;
-    height: 4px; 
-    background-color: white; 
-    transition: width 0.3s ease;    
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
-.navlist1-Animated a:hover::before {
-    width: 100%; 
+.navlist1-animated a:hover::after {
+    width: 100%;
+    left: 0;
 }
+
+.button-container-animated {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-one-animated {
+    background-color: #4f82ac;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-one-animated:hover {
+    background-color: #333;
+}
+
+.dropdown-animated i {
+    font-size: 15px; 
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.dropdown-animated .dropbtn-animated {
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: 600;
+}
+
+.dropdown-content-animated {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(248, 247, 247, 0.2);
+    z-index: 1;
+}
+
+.dropdown-animated:hover .dropdown-content-animated {
+    display: block;
+}
+
+.dropdown-content-animated a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Design-one-animated i {
+    font-size: 15px; 
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/**Design 2 Animated **/
+
 
 
 .Design-two-Animated {
@@ -524,10 +634,45 @@ body{
     opacity: 1; 
 }
 
-.navlist2-Animated {
+.Form-2-animated{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+}
+
+.search-input-2{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 30vh;
+}
+
+.search-button-2{
+    background-color: #706f6f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.search-button-2 i {
+    font-size: 20px;
+}
+.search-button-2:hover {
+    background-color: #333;
+}
+.navlist2-Animated {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
     gap: 2rem;
 }
 
@@ -538,7 +683,6 @@ body{
 .navlist2-Animated a {
     position: relative;
     color: white;
-    margin-left: 60px;
     font-size: 15px;
     font-weight: 600;
     padding: 10px 15px;
@@ -611,6 +755,9 @@ body{
     transform: none;
     box-shadow: none;
 }
+
+/**Design 3 Animated **/
+
 .Design-three-Animated {
     position: static;
     right: 0;
@@ -706,143 +853,205 @@ body{
 .Design-three-Animated .navlist3-Animated li:hover a {
     color: white; 
 }
-.Design-four-Animated {
+/**Design 4 Animated **/
+
+.Design-four-animated {
+    display: flex;
+    align-items: center;
     background-color: #333;
     width: 100%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: background-color 0.3s ease;
-}
-
-.Design-four-Animated:hover .navlist4-Animated li {
-    transform: scale(0.95);
-}
-
-.Design-four nav {
-    width: 100%;
-}
-
-.navlist4-Animated {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navlist4-Animated li {
-    margin: 0 10px;
-    transition: transform 0.3s ease, font-size 0.3s ease;
-}
-
-.navlist4-Animated a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 24px;
     padding: 10px 20px;
-    border-radius: 5px;
-    background-color: transparent;
 }
 
-.navlist4-Animated a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.navlist4-Animated li:hover {
-    transform: scale(1);
-}
-
-.navlist4-Animated li:hover a {
-    font-size: 28px;
-}
-.Design-five-Animated {
-    position: static;
-    width: 220px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    float: left; 
-    background-color: #f45b2c;
-    padding: 10px;
-}
-
-
-.Design-five-Animated {
-    position: static;
-    width: 220px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    float: left;
-    background-color: #f45b2c;
-    padding: 10px;
-}
-
-.Design-five-Animated .navlist5 {
-    list-style: none;
-    margin-top: 20px;
-    overflow-y: auto;
-    scrollbar-width: none;
+.Design-four-animated nav {
     flex: 1;
 }
 
-.Design-three-Animated .cta-button:hover {
-    background-color: #2c1f1b;
-    color: #fff;
-}
-
-.Design-five-Animated img:hover {
-    animation: shake 0.5s ease-in-out forwards;
-}
-
-.navlist5-Animated li {
+.Design-four-animated .navlist4-animated {
     display: flex;
-    border-radius: 4px;
-    align-items: center;
-    margin-bottom: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10vh;
+    transition: font-size 0.3s ease; 
 }
 
-.navlist5-Animated li a {
-    padding: 10px;
-    color: #000;
-    display: block;
-    font-weight: 500;
-    white-space: nowrap;
+.navlist4-animated li a {
     text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+    transition: font-size 0.3s ease; 
 }
-.navlist5-Animated i {
-    font-size: 40px;
+
+.Design-four-animated .Logo-animated {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease; /
+}
+
+.user-icon-animated {
     color: white;
     cursor: pointer;
+    justify-content: flex-end;
     transition: font-size 0.3s ease;
-    margin-top: 100px;
 }
 
-.navlist5-Animated li:hover i {
-    font-size: 44px;
+.user-icon-animated i {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10vh;
+    transition: font-size 0.3s ease; 
 }
 
-.navlist5-Animated li:hover i:hover {
-    font-size: 40px;
+
+.Design-four-animated:hover .navlist4-animated li a {
+    font-size: 12px;
 }
 
-.github-Animated i {
-    font-size: 40px;
+
+.Design-four-animated nav:hover .navlist4-animated li a,
+.Design-four-animated .Logo-animated:hover,
+.Design-four-animated .user-icon-animated:hover i {
+    font-size: 24px;
+    transform: scale(1.2); 
+}
+
+
+.navlist4-animated li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.Design-four-animated .Logo-animated{
+    flex-grow: 1;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.user-icon-animated{
+
+    color: white;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.user-icon-animated i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10vh;
+    
+}
+
+
+/**Design 5 Animated **/
+
+
+.Design-five-animated{
+    display: flex;
+    position: static;
+    width: auto;
+    height: 10vh;
+    background-color: #f2f6f7;
+    justify-content: space-evenly;
+    
+}
+
+.form-5-animated{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navlist5-container-animated{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: left;
+    flex-direction:row;
+}
+
+.navlist5-container-animated ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.navlist5-container-animated li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.navlist5-container-animated i{
+    font-size: 30px;
+    color: #000;
     cursor: pointer;
     transition: font-size 0.3s ease;
-    margin-top: 40vh;
+
+}
+.navlist5-container-animated i:hover{
+    font-size: 40px;
+    color:  red;
+}
+.logo-animated{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: all 0.3s ease;
 }
 
-.github-Animated i:hover {
-    font-size: 44px;
+.logo-animated:hover {
+    animation: jump 0.6s ease-in-out 3;
+    color: red;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.logo-animated i{
+    font-size: 100px;
+    color: #000;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.search-button-animated{
+    background-color: #706f6f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
 }
 
 
-
-
+.search-button-animated:hover {
+    background-color: red;
+}
